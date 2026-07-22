@@ -1,4 +1,5 @@
 {
-  "buildCommand": "node node_modules/expo/bin/cli export --platform web",
-  "outputDirectory": "dist"
+  "buildCommand": "npm run build:web",
+  "outputDirectory": "dist",
+  "framework": null
 }
