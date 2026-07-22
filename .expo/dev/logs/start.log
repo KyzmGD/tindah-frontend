@@ -72,3 +72,76 @@
 {"_e":"metro:client_log","_t":1784658233653,"level":"log","data":["matchedUser","null"]}
 {"_e":"metro:client_log","_t":1784658299662,"level":"warn","data":["[expo-image-picker] `ImagePicker.MediaTypeOptions` have been deprecated. Use `ImagePicker.MediaType` or an array of `ImagePicker.MediaType` instead."]}
 {"_e":"metro:client_log","_t":1784658303388,"level":"log","data":["[Error: Cannot read properties of undefined (reading 'photos')]"]}
+{"_e":"root:init","_t":1784679796529,"format":"v0-jsonl","version":"56.1.20"}
+{"_e":"env:mode","_t":1784679796532,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1784679796537,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1784679797424,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1784679798447,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1784679803928,"atlas":false,"workers":10,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1784679808953,"id":"1","platform":"web","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1784679808954,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679808957,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679809056,"id":"1","progress":0.02493074792243767,"total":57,"current":9}
+{"_e":"metro:bundling:progress","_t":1784679809166,"id":"1","progress":0.12144168962350782,"total":132,"current":46}
+{"_e":"metro:bundling:progress","_t":1784679809266,"id":"1","progress":0.19243948024207905,"total":212,"current":93}
+{"_e":"metro:bundling:progress","_t":1784679809371,"id":"1","progress":0.2691829624831498,"total":239,"current":124}
+{"_e":"metro:bundling:progress","_t":1784679809471,"id":"1","progress":0.31443794217835613,"total":321,"current":180}
+{"_e":"metro:bundling:progress","_t":1784679809572,"id":"1","progress":0.36964116467191255,"total":426,"current":259}
+{"_e":"metro:bundling:progress","_t":1784679809674,"id":"1","progress":0.3902801534045777,"total":453,"current":283}
+{"_e":"metro:bundling:started","_t":1784679809730,"id":"2","platform":"web","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1784679809730,"id":"1","progress":0.3902801534045777,"total":453,"current":283}
+{"_e":"metro:bundling:progress","_t":1784679809730,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679809777,"id":"1","progress":0.39400458050825526,"total":556,"current":349}
+{"_e":"metro:bundling:progress","_t":1784679809777,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679809877,"id":"1","progress":0.4530325443786983,"total":624,"current":420}
+{"_e":"metro:bundling:progress","_t":1784679809878,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679809977,"id":"1","progress":0.5763031677572873,"total":656,"current":498}
+{"_e":"metro:bundling:progress","_t":1784679809977,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679810077,"id":"1","progress":0.6257518378257964,"total":737,"current":583}
+{"_e":"metro:bundling:progress","_t":1784679810077,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679810177,"id":"1","progress":0.7156421533811986,"total":779,"current":659}
+{"_e":"metro:bundling:progress","_t":1784679810177,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679810286,"id":"1","progress":0.7428981007038655,"total":898,"current":774}
+{"_e":"metro:bundling:progress","_t":1784679810286,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679810386,"id":"1","progress":0.8406077837747062,"total":926,"current":849}
+{"_e":"metro:bundling:progress","_t":1784679810386,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679810487,"id":"1","progress":0.92998333496716,"total":1010,"current":974}
+{"_e":"metro:bundling:progress","_t":1784679810487,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1784679810591,"id":"1","progress":0.9981140975436097,"total":1060,"current":1059}
+{"_e":"metro:bundling:progress","_t":1784679810591,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1784679810751,"id":"1","total":1060,"ms":1797.4355}
+{"_e":"metro:bundling:progress","_t":1784679810751,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1784679810790,"id":"2","total":1,"ms":1059.4588}
+{"_e":"metro:client_log","_t":1784679811130,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1784679811131,"level":"warn","data":["[Reanimated] Reduced motion setting is enabled on this device. This warning is visible only in the development mode. Some animations will be disabled by default. You can override the behavior for individual animations, see https://docs.swmansion.com/react-native-reanimated/docs/guides/troubleshooting#reduced-motion-setting-is-enabled-on-this-device."]}
+{"_e":"metro:client_log","_t":1784679811131,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1784679811131,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1784679811189,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1784679811193,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679811193,"level":"log","data":["matchedUser","null"]}
+{"_e":"metro:client_log","_t":1784679811289,"level":"log","data":["users length:","1"]}
+{"_e":"metro:client_log","_t":1784679811289,"level":"log","data":["currentUser:","6a5fab49be87706a36b58cc7"]}
+{"_e":"metro:client_log","_t":1784679811295,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679811295,"level":"log","data":["matchedUser","null"]}
+{"_e":"metro:client_log","_t":1784679851633,"level":"warn","data":["[expo-image-picker] `ImagePicker.MediaTypeOptions` have been deprecated. Use `ImagePicker.MediaType` or an array of `ImagePicker.MediaType` instead."]}
+{"_e":"metro:client_log","_t":1784679856064,"level":"log","data":["[Error: Cannot read properties of undefined (reading 'photos')]"]}
+{"_e":"metro:client_log","_t":1784679869738,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:client_log","_t":1784679872249,"level":"log","data":["HANDLE SWIPE:","6a5fab49be87706a36b58cc7","nope"]}
+{"_e":"metro:client_log","_t":1784679872249,"level":"log","data":["BEFORE:","1"]}
+{"_e":"metro:client_log","_t":1784679872249,"level":"log","data":["AFTER:","0"]}
+{"_e":"metro:client_log","_t":1784679872254,"level":"log","data":["users length:","0"]}
+{"_e":"metro:client_log","_t":1784679872254,"level":"log","data":["currentUser:","undefined"]}
+{"_e":"metro:client_log","_t":1784679872254,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679872254,"level":"log","data":["matchedUser","null"]}
+{"_e":"metro:client_log","_t":1784679896218,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679896218,"level":"log","data":["matchedUser","null"]}
+{"_e":"metro:client_log","_t":1784679896243,"level":"log","data":["users length:","2"]}
+{"_e":"metro:client_log","_t":1784679896243,"level":"log","data":["currentUser:","6a5faab0be87706a36b58cc5"]}
+{"_e":"metro:client_log","_t":1784679896246,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679896246,"level":"log","data":["matchedUser","null"]}
+{"_e":"metro:client_log","_t":1784679914437,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679914437,"level":"log","data":["matchedUser","null"]}
+{"_e":"metro:client_log","_t":1784679914474,"level":"log","data":["users length:","0"]}
+{"_e":"metro:client_log","_t":1784679914474,"level":"log","data":["currentUser:","undefined"]}
+{"_e":"metro:client_log","_t":1784679914475,"level":"log","data":["currentUser","null"]}
+{"_e":"metro:client_log","_t":1784679914475,"level":"log","data":["matchedUser","null"]}
