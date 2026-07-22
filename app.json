@@ -2,6 +2,9 @@
   "expo": {
     "name": "Tindah",
     "slug": "tindah",
+    "web": {
+      "bundler": "metro"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
