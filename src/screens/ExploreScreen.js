@@ -178,7 +178,7 @@ const [matchedUser, setMatchedUser] =
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#f7f8fc",
+    backgroundColor: "#111418",
   },
   header: {
     paddingTop: 16,
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: "#fff",
+    backgroundColor: "#111418",
   },
   logo: {
     color: "#ff4458",
@@ -197,11 +197,11 @@ const styles = StyleSheet.create({
   filterButton: {
     paddingVertical: 8,
     paddingHorizontal: 14,
-    backgroundColor: "#f4f5f8",
+    backgroundColor: "#4e4c4c85",
     borderRadius: 18,
   },
   filterText: {
-    color: "#626678",
+    color: "#ffffff",
     fontWeight: "800",
   },
   content: {
@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   bannerText: {
-    color: "#fff",
+    color: "#171a25",
     fontWeight: "800",
   },
   errorBox: {
@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     gap: 20,
     paddingBottom: 16,
-    backgroundColor: "#f7f8fc",
+    backgroundColor: "#111418",
   },
   actionButton: {
     width: 70,
@@ -255,8 +255,8 @@ const styles = StyleSheet.create({
     borderRadius: 35,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff",
-    shadowColor: "#1b1d28",
+    backgroundColor: "#303338",
+    shadowColor: "#07080a",
     shadowOpacity: 0.12,
     shadowRadius: 10,
     shadowOffset: { width: 0, height: 8 },

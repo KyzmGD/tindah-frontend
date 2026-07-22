@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
 
   container: {
     width: "85%",
-    backgroundColor: "#fff",
+    backgroundColor: "#171a25",
     borderRadius: 24,
     padding: 24,
     alignItems: "center",
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   },
 
   messageText: {
-    color: "#fff",
+    color: "#ffffff",
     fontWeight: "800",
     fontSize: 16,
   },

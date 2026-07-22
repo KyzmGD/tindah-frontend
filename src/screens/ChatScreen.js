@@ -204,23 +204,26 @@ export default function ChatScreen({ navigation, route }) {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#111418",
   },
   avatar: {
   width: 48,
   height: 48,
   borderRadius: 24,
+  borderWidth: 2,
+  borderColor: "#FF4458",
 },
   header: {
-    paddingTop: 54,
-    paddingHorizontal: 14,
-    paddingBottom: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: "#ececf2",
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 10,
-  },
+  paddingTop: 10,
+  paddingHorizontal: 14,
+  paddingBottom: 14,
+  borderBottomWidth: 1,
+  borderBottomColor: "#333333",
+  backgroundColor: "#171a25",
+  flexDirection: "row",
+  alignItems: "center",
+  gap: 10,
+},
   backButton: {
     width: 42,
     height: 42,
@@ -234,15 +237,25 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
   title: {
-    color: "#171a25",
+    color: "#ffffff",
     fontSize: 20,
     fontWeight: "900",
   },
   typing: {
-    color: "#8c8f9f",
+    color: "#B0B3B8",
     fontSize: 12,
   },
   messages: {
-    paddingVertical: 12,
-  },
+  paddingVertical: 12,
+  paddingHorizontal: 12,
+},
+  emptyChat: {
+  flex: 1,
+  justifyContent: "center",
+  alignItems: "center",
+  paddingTop: 80,
+},emptyChatText: {
+  color: "#B0B3B8",
+  fontSize: 16,
+},
 });

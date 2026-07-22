@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#ff4458",
   },
   secondary: {
-    backgroundColor: "#fff",
+    backgroundColor: "#343435",
     borderWidth: 1,
     borderColor: "#e8e8ef",
   },
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   secondaryText: {
-    color: "#1d2233",
+    color: "#ffffff",
   },
   ghostText: {
     color: "#ff4458",

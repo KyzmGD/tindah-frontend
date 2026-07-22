@@ -89,7 +89,7 @@ export default function ChatListScreen({ navigation }) {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#111418",
   },
   center: {
     flex: 1,
@@ -104,10 +104,10 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: "#fff",
+    backgroundColor: "#111418",
   },
   title: {
-    color: "#171a25",
+    color: "#ffffff",
     fontSize: 30,
     fontWeight: "900",
   },
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   name: {
-    color: "#171a25",
+    color: "#888b9b",
     fontSize: 17,
     fontWeight: "800",
   },
@@ -167,12 +167,12 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   emptyTitle: {
-    color: "#171a25",
+    color: "#616570",
     fontSize: 22,
     fontWeight: "900",
   },
   emptyText: {
-    color: "#777b8d",
+    color: "#88898f",
     textAlign: "center",
     lineHeight: 20,
   },

@@ -20,18 +20,18 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   label: {
-    color: "#606473",
+    color: "#B0B3B8",
     fontSize: 13,
     fontWeight: "700",
   },
   input: {
     minHeight: 52,
     borderWidth: 1,
-    borderColor: "#e3e4eb",
+    borderColor: "#424141",
     borderRadius: 14,
     paddingHorizontal: 16,
-    color: "#171a25",
-    backgroundColor: "#fff",
+    color: "#ffffff",
+    backgroundColor: "#171a25",
     fontSize: 16,
   },
   inputError: {

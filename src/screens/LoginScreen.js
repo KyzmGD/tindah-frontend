@@ -251,7 +251,7 @@ export default function LoginScreen() {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#fafbff",
+    backgroundColor: "#111418",
   },
   content: {
     flexGrow: 1,
@@ -274,7 +274,7 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   title: {
-    color: "#171a25",
+    color: "#ffffff",
     fontSize: 34,
     fontWeight: "900",
   },

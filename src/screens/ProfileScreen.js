@@ -265,7 +265,7 @@ setMessage("Avatar updated");
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#fafbff",
+    backgroundColor: "#111418",
   },
   content: {
     paddingTop: 58,
@@ -279,20 +279,22 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   avatar: {
-    width: 92,
-    height: 92,
-    borderRadius: 46,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#ff4458",
-  },
+  width: 92,
+  height: 92,
+  borderRadius: 46,
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "#75696a",
+  borderWidth: 3,
+  borderColor: "#b1b1b1",
+},
   avatarText: {
     color: "#fff",
     fontSize: 40,
     fontWeight: "900",
   },
   title: {
-    color: "#171a25",
+    color: "#FFFFFF",
     fontSize: 26,
     fontWeight: "900",
   },
@@ -302,30 +304,32 @@ const styles = StyleSheet.create({
   borderRadius: 46,
 },
   email: {
-    color: "#777b8d",
+    color: "#B0B3B8",
     fontWeight: "600",
   },
   bioInput: {
     minHeight: 110,
     textAlignVertical: "top",
     paddingTop: 14,
+    backgroundColor: "#171a25",
+    color: "#fff",
   },
   message: {
-    color: "#ff4458",
-    fontWeight: "800",
-    textAlign: "center",
-  },
+  color: "#FF4458",
+  fontWeight: "800",
+  textAlign: "center",
+},
   filterSection: {
     gap: 12,
     paddingTop: 6,
   },
   sectionTitle: {
-    color: "#171a25",
+    color: "#FFFFFF",
     fontSize: 18,
     fontWeight: "900",
   },
   label: {
-    color: "#606473",
+    color: "#B0B3B8",
     fontSize: 13,
     fontWeight: "700",
   },
@@ -334,30 +338,35 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     gap: 10,
   },
-  genderChip: {
-    borderWidth: 1,
-    borderColor: "#e3e4eb",
-    borderRadius: 18,
-    paddingHorizontal: 14,
-    paddingVertical: 9,
-    backgroundColor: "#fff",
+ genderChip: {
+  borderWidth: 1,
+  borderColor: "#3A3B3C",
+  borderRadius: 18,
+  paddingHorizontal: 14,
+  paddingVertical: 9,
+  backgroundColor: "#242526",
+},  
+  jobTitleInput: {
+    backgroundColor: "#171a25",
+    color: "#fff",
   },
   genderChipSelected: {
-    borderColor: "#ff4458",
-    backgroundColor: "#fff0f2",
-  },
-  genderChipText: {
-    color: "#606473",
-    fontWeight: "800",
-  },
-  genderChipTextSelected: {
-    color: "#ff4458",
-  },
+  borderColor: "#FF4458",
+  backgroundColor: "#3A1C24",
+},
+ genderChipText: {
+  color: "#FFFFFF",
+  fontWeight: "800",
+},
+ genderChipTextSelected: {
+  color: "#FF4458",
+},
   ageRow: {
     flexDirection: "row",
     gap: 12,
   },
   ageInput: {
+    backgroundColor: "#111418",
     flex: 1,
   },
 });

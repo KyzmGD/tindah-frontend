@@ -87,7 +87,7 @@ export default function UserCard({ user, style, remaining = 0 }) {
 const styles = StyleSheet.create({
   card: {
   borderRadius: 22,
-  backgroundColor: "#111",
+  backgroundColor: "#242526",
   overflow: "hidden",
   shadowColor: "#1b1d28",
   shadowOpacity: 0.18,
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   fontSize: 16,
 },
   matchLabel: {
-  color: "rgba(255,255,255,0.85)",
+  color: "#FFFFFF",
   fontSize: 11,
   fontWeight: "700",
   marginTop: 2,
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   name: {
-    color: "#fff",
+    color: "#FFFFFF",
     fontSize: 34,
     fontWeight: "900",
   },
