@@ -3,7 +3,8 @@
     "name": "Tindah",
     "slug": "tindah",
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+        "output": "static"
     },
     "version": "1.0.0",
     "orientation": "portrait",
